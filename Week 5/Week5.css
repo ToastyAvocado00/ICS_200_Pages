@@ -1,0 +1,23 @@
+h1 {
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+  font: 16px Arial;
+}
+
+h2 {
+  color: Tomato;
+  font-size: 20px;
+  margin-top: 20px; 
+}
+
+h3 {
+  color: MediumSeaGreen;
+  font-size: 20px;
+}
+
+h4 {
+  color: Violet;
+  font-size: 20px; 
+}
+
