@@ -12,7 +12,7 @@ body {
 
 header {
   background-color: #333;
-  color: #fff;
+  color: #000000;
   padding: 1rem;
 }
 
@@ -86,4 +86,12 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
+}
+
+main p {
+  color: #000;
+}
+
+main h2 {
+  color: #000; 
 }
