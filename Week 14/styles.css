@@ -100,8 +100,43 @@ main h2 {
   color: #333;
 }
 
-.anime-character {
-  position: absolute;
-  left: 0;
+header {
+  position: relative;
+}
+
+header {
+  background-color: #ff6347; 
+  color: #fff;
+  padding: 1rem;
+}
+
+body::after {
+  content: "";
+  position: fixed;
   top: 0;
+  right: 0;
+  bottom: 0;
+  width: 70px; 
+  background-color: #ff6347; 
+}
+
+
+main {
+  padding: 2rem;
+  padding-right: 70px;
+  line-height: 1.6;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.anime-character {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: -20px; 
 }
