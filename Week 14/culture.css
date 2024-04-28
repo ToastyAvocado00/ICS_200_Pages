@@ -10,6 +10,14 @@ body {
   line-height: 1.6;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 header {
   background-image: url('https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6e1661a50f2abf0b/60ab379977e996669f49e985/US_Japan_Japan_Header.jpg?width=960&quality=70&auto=webp'); 
   background-color:#ff6347; 
@@ -74,4 +82,57 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.destination-grid {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left; 
+  margin-top: 20px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  position: relative;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .image-overlay {
+  opacity: 1;
+}
+
+.cool-japan img {
+  width: 300px; 
+  height: auto; 
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
