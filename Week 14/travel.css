@@ -185,3 +185,23 @@ footer {
   transform: scale(1.03);
   transition: all 1s ease;
 }
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 28.5px; 
+  background-image: url('https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6e1661a50f2abf0b/60ab379977e996669f49e985/US_Japan_Japan_Header.jpg?width=960&quality=70&auto=webp'); 
+  background-color:#ff6347; 
+  background-blend-mode: overlay; 
+  padding: 20px;
+}
+
+
+main {
+  padding: 2rem;
+  padding-right: 70px;
+  line-height: 1.6;
+}
