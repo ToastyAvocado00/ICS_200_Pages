@@ -21,21 +21,30 @@
   </header>
   <main>
     <section class="dish-grid">
-      <div class="dish">
+      <div class="dish" onclick="showRecipe('sushi')">
         <img src="https://www.thespruceeats.com/thmb/5uH2U8zjnFYY4V7RHnSUvSfUcNA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-Ridofranz-1053855542-60b89644efd2470fbfb6475b175064df.jpg" alt="Dish 1">
         <h3>Sushi</h3>
         <p>Enjoy fresh and delicious sushi rolls.</p>
+        <div class="recipe">
+        <h3>Recipe</h3>
+          <p>Prepare sushi rice, slice your favorite fish, and roll them together with nori seaweed. Enjoy!</p>
       </div>
-      <div class="dish">
+      <div class="dish" onclick="showRecipe('ramen')">
         <img src="https://kodawari-times.net/wp-content/uploads/2022/10/ramen-1024x683.jpg" alt="Dish 2">
         <h3>Ramen</h3>
         <p>Savor the rich flavors of Japanese ramen noodles.</p>
+        <div class="recipe">
+        <h3>Recipe</h3>
+          <p>Boil noodles in broth, add toppings like sliced pork, green onions, and eggs. Serve hot!</p>
       </div>
-      <div class="dish">
+      <div class="dish" onclick="showRecipe('tempura')">
         <img src="https://images.slurrp.com/prodarticles/bwlis3bh5a.webp?impolicy=slurrp-20210601&width=1200&height=900&q=75" alt="Dish 3">
         <h3>Tempura</h3>
         <p>Indulge in crispy and light tempura dishes.</p>
-      </div>
+        <div class="recipe">
+          <h3>Recipe</h3>
+          <p>Coat seafood or vegetables in a light batter and deep-fry until crispy. Serve with dipping sauce.</p>
+        </div>
     </section>
     
     <section class="fun-section">
@@ -58,6 +67,7 @@
   <footer>
     <p>&copy; 2024 Explore Japan</p>
   </footer>
-  </script>
+
+  <script src="cuisine.js" defer></script>
 </body>
 </html>
