@@ -107,3 +107,40 @@ main {
 .fun-section iframe {
   margin-top: 15px;
 }
+
+.word-search {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.word-search-puzzle {
+  display: grid;
+  grid-template-columns: repeat(8, 40px);
+  grid-template-rows: repeat(8, 40px);
+  gap: 2px;
+  margin-top: 20px;
+}
+
+.word {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: bold;
+}
+
+.hidden-letter {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hidden-letter:hover {
+  background-color: #ddd;
+}

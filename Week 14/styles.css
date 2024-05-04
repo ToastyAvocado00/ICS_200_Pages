@@ -154,3 +154,32 @@ footer {
   font-size: 0.8rem;
 }
 
+.game-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #eee;
+  border: 2px solid #ccc;
+}
+
+.petals {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url('cherry_blossom.jpg'); 
+  background-size: cover;
+  cursor: pointer;
+}
+
+.game-container {
+  background-image: url('mount_fuji.jpg');
+  background-size: cover; 
+  background-position: center;
+
+}
+
+.game-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
